@@ -1,6 +1,6 @@
 ##### change variable 'l' to any string you want
-l = input("Enter your string: ")  #"PAYPALISHIRING"
-row_len = int(input("Enter number of rows: "))
+l = input("Enter your string: ") or "PAYPALISHIRING"
+row_len = int(input("Enter number of rows: ") or 4)
 check_sum = 0
 col_len = 0
 while check_sum < len(l):
